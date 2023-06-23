@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Emprendimiento - parte 3</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap Icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+        rel="stylesheet" type="text/css" />
+    <!-- SimpleLightbox plugin CSS-->
+    <link href="css/estilo.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        .modal-dialog {
+            max-width: 60%;
+            /* Cambia el ancho máximo según tus necesidades */
+            margin: 1.75rem auto;
+        }
+
+        .modal-body {
+            padding: 2rem;
+        }
+    </style>
+
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="../../index.html">JSGames</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#agregado">Valor agregado</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Actividades clave</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Socios clave</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#recursos">Recursos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#costos">Estructura de costos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <section class="page-section bg-primary" id="agregado">
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold">Valor agregado</h1>
+                        <hr class="divider" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 mb-5">El valor agregado o diferenciador de nuestra empresa de
+                            videojuegos radica en la combinación única de elementos que ofrece nuestro juego
+                            BloodyCountry. Si quieres saber que nos diferencia de los demas, dale click a este hermoso
+                            botón verde!</p>
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2"
+                            style="color: rgb(88, 235, 72);"><b>ESTE BOTÓN!!!</b></a>
+                    </div>
+                    <img src="/assets/img/logo.png" style="width:35%;" alt="">
+                </div>
+            </div>
+        </header>
+    </section>
+    <!-- About-->
+    <section class="page-section bg-primary" id="services">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="text-white mt-0">Actividades claves<br>Tenemos lo que deseas!</h2>
+                    <hr class="divider divider-light" />
+                    <p class="text-white-75 mb-4">Para nosotros, enamorar, antraer y mantener la atención del publico y
+                        nuestros clientes es lo más primordial, ya que sin nuestros clientes y jugadores nosotros no
+                        existiriamos. Por ello les presentamos la siguiente lista de actividades que se podrían llevar a
+                        cabo para enamorar a nuestra gente:</p>
+                    <a class="btn btn-light btn-xl" data-bs-toggle="modal" href="#actividades"
+                        href="#services">Actividades</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services-->
+    <section class="page-section" id="portfolio">
+        <div class="container px-4 px-lg-5">
+            <h2 class="text-center mt-0">Nuestros socios clave</h2>
+            <p style="padding-left: 10%;">Para el éxito de nuestro proyecto y para fortalecer nuestra posición en la
+                industria de los videojuegos, buscamos establecer alianzas estratégicas con socios clave. Estas alianzas
+                nos permitirán aprovechar la experiencia, recursos y redes de nuestros socios para impulsar el
+                desarrollo y la comercialización de nuestro juego BloodyCountry. Algunos ejemplos de posibles socios
+                clave incluyen:</p>
+            <hr class="divider" />
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
+                        <h3 class="h4 mb-2"><b>Empresas internacionales de videojuegos:</b></h3>
+                        <p class="text-muted mb-0"> Colaborar con empresas reconocidas a nivel mundial en la industria
+                            de los videojuegos, como Microsoft, Activision, Electronic Arts (EA) o Ubisoft, puede
+                            brindarnos beneficios significativos. Estas empresas pueden proporcionar apoyo financiero,
+                            experiencia en desarrollo y comercialización, así como acceso a plataformas de distribución
+                            ampliamente establecidas. Además, pueden ayudarnos a expandir nuestro alcance a nivel global
+                            y aprovechar su reputación para generar confianza en nuestro juego.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
+                        <h3 class="h4 mb-2"><b>Empresas de desarrollo de software y tecnología:</b></h3>
+                        <p class="text-muted mb-0">Empresas de desarrollo de software y tecnología: Establecer alianzas
+                            con empresas especializadas en el desarrollo de software y tecnología nos permitirá mejorar
+                            la calidad y el rendimiento de nuestro juego. Estas empresas pueden brindarnos conocimientos
+                            técnicos avanzados, recursos de desarrollo y acceso a herramientas y tecnologías de
+                            vanguardia. Algunos ejemplos de socios potenciales en este ámbito podrían ser Unity
+                            Technologies, Epic Games o Crytek.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+                        <h3 class="h4 mb-2"><b>Empresas nacionales de videojuegos en Colombia:</b></h3>
+                        <p class="text-muted mb-0">Existen diversas empresas de videojuegos en Colombia que podrían
+                            estar interesadas en colaborar con nosotros. Establecer alianzas con estas empresas nos
+                            permitirá fortalecer la industria nacional de videojuegos y aprovechar sinergias y
+                            conocimientos locales. Algunas empresas de videojuegos en Colombia incluyen Teravision
+                            Games, Efecto Studios y Brainz Games. Al trabajar juntos, podremos compartir recursos,
+                            experiencias y oportunidades comerciales para impulsar el crecimiento mutuo.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
+                        <h3 class="h4 mb-2"><b>Instituciones educativas y culturales:</b></h3>
+                        <p class="text-muted mb-0">Colaborar con instituciones educativas y culturales, como
+                            universidades, museos o centros de investigación histórica, puede agregar un valor adicional
+                            a nuestro juego. Estas alianzas nos permitirán acceder a conocimientos especializados sobre
+                            la historia colombiana, obtener retroalimentación valiosa de expertos en el campo y
+                            establecer una base sólida para la autenticidad y la calidad de la narrativa histórica en
+                            BloodyCountry.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="recursos">
+        <h2 class="text-center mt-0">Nuestros recursos clave</h2>
+        <div class="contrainer">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <p>Para poner en marcha nuestro videojuego , necesitaremos de una variedad de recursos clave,
+                            tanto tangibles como intangibles. Estos recursos son fundamentales para el desarrollo,
+                            producción y comercialización del juego. Algunos ejemplos de bienes tangibles e intangibles
+                            que podriamos necesitar serian:</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio-->
+        <div id="portfolio">
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/test.jfif"
+                            title="Computadoras, consolas de videojuegos, dispositivos móviles, servidores, periféricos y otros equipos necesarios para el desarrollo y la prueba del juego.">
+                            <img class="img-fluid" src="assets/img/pc.jfif" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">TANGIBLE</div>
+                                <div class="project-name">Equipos de desarrollo</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/soware2.jfif" title="Licencias de software de desarrollo de juegos, motores de juego como Unity o Unreal Engine, herramientas de diseño gráfico y modelado 3D, software de animación y herramientas de depuración y pruebas.">
+                            <img class="img-fluid" src="assets/img/soware.jfif" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">TANGIBLE</div>
+                                <div class="project-name">Software y herramientas de desarrollo</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/ofi2.jfif" title="Materiales de marketing y promoción, como folletos, carteles, camisetas y otros productos promocionales relacionados con el juego, infraestructura como edificios, oficinas y ubicaciones.">
+                            <img class="img-fluid" src="assets/img/ofi.jfif" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">TANGIBLE</div>
+                                <div class="project-name">Material físico</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/derecho2.jfif" title="Derechos de autor y marcas registradas para proteger el contenido del juego, la marca y los activos intangibles asociados.">
+                            <img class="img-fluid" src="assets/img/derecho.jfif" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">INTANGIBLE</div>
+                                <div class="project-name">Propiedad intelectual</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/equipo.jfif" title="Equipo de desarrollo talentoso, que incluya diseñadores, programadores, artistas gráficos, animadores, escritores y profesionales de sonido que colaboren en la creación del juego.">
+                            <img class="img-fluid" src="assets/img/bienes.jfif" alt="..." />
+                            <div class="portfolio-box-caption">
+                                <div class="project-category text-white-50">INTANGIBLE</div>
+                                <div class="project-name">Capital humano</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/niveles.jfif" title="Diseño de niveles, guiones de diálogo, música, efectos de sonido y otros elementos de contenido necesarios para crear la experiencia de juego.">
+                            <img class="img-fluid" src="assets/img/diseño.jfif" alt="..." />
+                            <div class="portfolio-box-caption p-3">
+                                <div class="project-category text-white-50">INTANGIBLE</div>
+                                <div class="project-name">Contenido y guion</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call to action-->
+
+
+
+    <section class="page-section bg-dark text-white" id="costos">
+        <div class="container px-4 px-lg-5 text-center">
+            <h2 class="mb-4">Estructura de costos</h2>
+            <div class="contrainer">
+                <div class="container px-4 px-lg-5 h-100">
+                    <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                        <div class="col-lg-8 align-self-end">
+                            <p>Para llevar a cabo nuestra empresa de videojuegos necesitamos conocer una serie de costos que pueden variar según ciertos factores, como el tamaño y la escala de de la empresa o del videojuego a desarrollar. A continuación, se mencionané algunos elementos clave a considerar en la estructura de costos:</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn-light btn-xl" data-bs-toggle="modal" href="#activos">Activos</a>
+            <a class="btn btn-light btn-xl" data-bs-toggle="modal" href="#pasivos">Pasivos</a>
+            <a class="btn btn-light btn-xl" data-bs-toggle="modal" href="#patrimonio">Patrimonio</a>
+        </div>
+    </section>
+    <!-- Contact-->
+    <!-- Footer-->
+    <footer class="bg-light py-5">
+        <div class="container px-4 px-lg-5">
+            <div class="small text-center text-muted">Copyright &copy; 2023 - Company Name</div>
+        </div>
+    </footer>
+
+    <div class="portfolio-modal modal fade" id="actividades" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog col-lg-12">
+
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body text-center">
+
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Nuestras actividades para atraer gente:</h2>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/convencion.jfif" alt="..." />
+                                <p><b> 1) Desarrollo continuo: </b> Mantendremos un equipo dedicado al desarrollo y
+                                    mejora constante del juego. Esto incluirá actualizaciones periódicas que agregarán
+                                    contenido nuevo, mejoras en la jugabilidad y correcciones de bugs, con el objetivo
+                                    de brindar a los jugadores una experiencia en constante evolución y mantener su
+                                    interés a largo plazo, e incluso con una posible idea de incluir un multijugador
+                                    balanceado y divertido.</p>
+                                <p><b>2) Comunidad activa:</b> Fomentaremos la participación de la comunidad de
+                                    jugadores y gente interesada a través de foros en línea, redes sociales y eventos
+                                    especiales como reuniones o convenciones (Donde se premiara al mejor cosplayer),
+                                    discuciones en reddit, servidor de discord, y un largo etcetera. Escucharemos
+                                    atentamente los comentarios, sugerencias y quejas de los jugadores e interesados,
+                                    responderemos a sus inquietudes y sugerencias, y les brindaremos un espacio sano
+                                    para interactuar entre ellos, creando así un sentido de comunidad y pertenencia
+                                    donde todos sean tratados por igual.</p>
+                                <p><b>3) Soporte técnico eficiente:</b> Sabemos que estan cansados del "Soporte" técnico
+                                    de algunas empresas y juegos (Que de soporte no tienen nada), en vista a esto
+                                    contaremos con un equipo de soporte técnico capacitado y amigable que estará
+                                    disponible para resolver cualquier problema técnico que los jugadores puedan
+                                    enfrentar. Brindaremos asistencia rápida y eficiente, lo que generará confianza y
+                                    satisfacción en nuestros clientes.</p>
+                                <p><b>4) Ofertas especiales:</b>Implementaremos descuentos periódicos en el juego, como
+                                    descuentos por tiempo limitado, ventas flash o paquetes especiales a precios
+                                    reducidos. Estas ofertas permitirán a los jugadores adquirir el juego o contenido
+                                    adicional a un precio más atractivo, incentivando su participación y generando un
+                                    sentido de oportunidad.</p>
+                                <p><b>5) Colaboraciones especiales: </b>Buscaremos asociarnos con otras marcas o eventos
+                                    relevantes para ofrecer promociones especiales. Por ejemplo, podríamos tener
+                                    colaboraciones con marcas de ropa (marketing), equipos deportivos o festivales de
+                                    videojuegos, donde los jugadores puedan obtener descuentos exclusivos al mostrar su
+                                    participación en nuestro juego.</p>
+
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Cerrar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="activos" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+   
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Nuestros activos</h2>
+                       
+                                <p><b>Equipos y tecnología: </b>Incluye la adquisición de computadoras, consolas de videojuegos, dispositivos móviles, servidores y otros equipos necesarios para el desarrollo del juego. Entre $100.000.000 y $150.000.000 pesos colombianos.</p>
+                                <p><b>Software y licencias: </b> Costos asociados a la compra de software de desarrollo de videojuegos, motores de juego, herramientas de diseño y programas de edición. Alrededor de $50.000.000 a $80.000.000 pesos colombianos.
+                                </p>
+                                <p><b>Propiedad intelectual:</b> Gastos relacionados con la protección de los derechos de autor, marcas registradas y otros aspectos legales de la propiedad intelectual del juego. Entre $20.000.000 y $40.000.000 pesos colombianos.</p>
+                                <p><b>Infraestructura física: </b>Incluye el alquiler o compra de un espacio de trabajo adecuado, así como el equipamiento y mobiliario necesario. De $80.000.000 a $120.000.000 pesos colombianos.</p>
+                                <p><b>Material promocional:</b> Costos asociados a la producción de materiales de marketing y promoción, como folletos, carteles, camisetas y otros productos promocionales.  Alrededor de $10.000.000 a $20.000.000 pesos colombianos.</p>
+                                <p><b>Contratación de talento: </b>Gastos relacionados con la contratación de profesionales clave, como diseñadores, programadores, artistas gráficos, escritores y especialistas en sonido. Aproximadamente $150.000.000 a $200.000.000 pesos colombianos.</p>
+
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Cerrar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="pasivos" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+   
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Nuestros pasivos</h2>
+                       
+                                <p><b>Servicios públicos: </b>Costos mensuales de electricidad, agua, internet y otros servicios necesarios para el funcionamiento de la empresa. Entre $1.000.000 y $3.000.000 pesos colombianos mensuales.</p>
+                                <p><b>Alquiler o hipoteca: </b> En caso de tener un espacio físico, se deben considerar los pagos mensuales de alquiler o las cuotas de una hipoteca. Puede variar entre $5.000.000 y $10.000.000 pesos colombianos mensuales.
+                                </p>
+                                <p><b>Sueldos y salarios:</b> Gastos de nómina para el personal contratado, incluyendo salarios, beneficios sociales y cargas patronales. Dependerá del número de empleados y sus funciones, pero un estimado podría ser entre $80.000.000 y $120.000.000 pesos colombianos mensuales.</p>
+                                <p><b>Marketing y publicidad: </b>Gastos periódicos para promocionar el juego a través de campañas publicitarias, presencia en eventos y otras estrategias de marketing. Aproximadamente $30.000.000 a $50.000.000 pesos colombianos mensuales.</p>
+                                <p><b>Mantenimiento y actualizaciones:</b> Costos asociados al mantenimiento y actualización del juego, incluyendo parches, mejoras y correcciones de errores. Entre $10.000.000 y $20.000.000 pesos colombianos mensuales.</p>
+                                <p><b>Servicios externos: </b>Gastos relacionados con la contratación de servicios externos, como consultoría legal, contabilidad, servicios de hosting, entre otros. Alrededor de $5.000.000 a $10.000.000 pesos colombianos mensuales.</p>
+
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Cerrar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="patrimonio" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+   
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Nuestro patrimonio</h2>
+                       
+                                <p><b>Patrimonio estimado: </b>Sumando los costos mencionados anteriormente, el patrimonio necesario para poner en marcha la idea de negocio podría estar en un rango aproximado de $500.000.000 a $700.000.000 pesos colombianos.</p>
+
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Cerrar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog col-lg-12">
+
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body text-center">
+
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Lo que nos diferencia del resto:</h2>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/innocar.jfif" alt="..." />
+                                <p><b> 1) Narrativa histórica de Colombia: </b>Nuestro juego se basa en la historia de
+                                    Colombia, lo cual lo distingue de otros juegos que se centran en temáticas más
+                                    genéricas. Ofrecemos a los jugadores la oportunidad de sumergirse en eventos
+                                    históricos reales y explorar diferentes perspectivas dentro de la historia
+                                    colombiana, cosa que, estamos seguros, nadie ha hecho nadie, o por lo menos no lo
+                                    han recreado fielmente.</p>
+                                <p><b>2) Experiencia realista y envolvente:</b> Buscamos brindar a los jugadores una
+                                    experiencia de juego inmersiva y auténtica, intentando que sea algo nunca antes
+                                    visto, que combine emociones como ira, felicidad, tristeza, agonía, etc. La
+                                    combinación de gráficos detallados, sonido envolvente y mecánicas de juego realistas
+                                    pero divertidas, permiten a los jugadores sentirse parte de la historia y sumergirse
+                                    en el mundo virtual de Colombia mientras se divierten y van adquiriendo diversos
+                                    conocimientos.</p>
+                                <p><b>3) Recurso educativo de calidad:</b> Además de ser un entretenimiento emocionante,
+                                    aunque nuestro juego tiene principalmente un enfoque didáctico, tambien queremos
+                                    darle un toque educarivo. La historia y los eventos históricos presentados en el
+                                    juego pueden utilizarse como una herramienta didáctica y de enseñanza en entornos
+                                    educativos, proporcionando una forma innovadora y más divertida de aprender sobre la
+                                    historia de Colombia.</p>
+
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Cerrar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SimpleLightbox plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
+</html>
